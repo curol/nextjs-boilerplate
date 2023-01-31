@@ -32,4 +32,5 @@
   ]
   // "workspaceMount": "source=${localWorkspaceFolderBasename},target=/workspaces/${localWorkspaceFolderBasename},type=volume",
   // "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  // "onCreateCommand": "sudo chown -R vscode:vscode /workspaces"
 }
