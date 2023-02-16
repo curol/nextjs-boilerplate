@@ -120,5 +120,8 @@
     "ms-azuretools.vscode-docker": ["ui"], // Local
     // https://github.com/microsoft/vscode-js-debug/blob/HEAD/OPTIONS.md#browserlaunchlocation
     "msjsdiag.debugger-for-chrome": ["workspace"] // Remote
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }

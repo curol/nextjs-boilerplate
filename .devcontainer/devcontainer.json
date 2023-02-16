@@ -2,20 +2,28 @@
   "name": "nextjs-boilerplate",
   "image": "ghcr.io/curol/devcontainers/js-pnpm:latest",
   "remoteUser": "vscode",
-  "forwardPorts": [3000, 3001, 9229],
+  "forwardPorts": [
+    3000,
+    3001,
+    9229
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
-        // "EditorConfig.EditorConfig",
-        // "dbaeumer.vscode-eslint",
-        // "esbenp.prettier-vscode",
-        // "ms-azuretools.vscode-docker",
-        // "bradlc.vscode-tailwindcss",
-        // "dsznajder.es7-react-js-snippets",
-        // "eamodio.gitlens",
-        // "JannisX11.batch-rename-extension",
-        // "VisualStudioExptTeam.vscodeintellicode",
-        // "VisualStudioExptTeam.intellicode-api-usage-examples"
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "dsznajder.es7-react-js-snippets",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "foxundermoon.shell-format",
+        "timonwong.shellcheck",
+        "mads-hartmann.bash-ide-vscode",
+        "eamodio.gitlens",
+        "christian-kohler.npm-intellisense",
+        "bradlc.vscode-tailwindcss",
+        "unifiedjs.vscode-mdx",
+        "bierner.markdown-mermaid"
       ]
     }
   },
