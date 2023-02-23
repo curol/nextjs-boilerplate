@@ -2,7 +2,7 @@
 
 Next.js boilerplate.
 
-[Demo](https://nextjs-boilerplate-curol.vercel.app/)
+[Demo](https://nextjs-boilerplate.curol.dev/)
 
 ## Stack
 
