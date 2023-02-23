@@ -24,7 +24,8 @@
     "@next/font": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "zustand": "^4.3.3"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "latest",

@@ -18,9 +18,14 @@ Next.js boilerplate.
 
 - [heroicons](https://github.com/tailwindlabs/heroicons) - A set of free MIT-licensed high-quality SVG icons for UI development.
 
-- [jest](https://github.com/facebook/jest) - Test framework.
+- [zustand](https://github.com/pmndrs/zustand) - React state management.
+
+- [jest](https://github.com/facebook/jest) - JavaScript testing framework.
+
+- [react-testing-library](https://github.com/testing-library/react-testing-library) - Simplified react testing library.
 
 - [msw](https://github.com/mswjs/msw) - REST/GraphQL API mocking library for browser and Node.js.
+
 
 ## Getting Started
 
