@@ -2,7 +2,11 @@
   "name": "nextjs-boilerplate",
   "image": "ghcr.io/curol/devcontainers/js-pnpm:latest",
   "remoteUser": "vscode",
-  "forwardPorts": [3000, 3001, 9229],
+  "forwardPorts": [
+    3000,
+    3001,
+    9229
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -20,13 +24,16 @@
         "bradlc.vscode-tailwindcss",
         "unifiedjs.vscode-mdx",
         "bierner.markdown-mermaid",
-        "ms-vscode.js-debug-nightly"
+        "ms-vscode.js-debug-nightly",
+        "GitHub.copilot"
       ]
     }
   },
-  "mounts": ["source=commandhistory,target=/commandhistory,type=volume"],
+  "mounts": [
+    "source=commandhistory,target=/workspaces/commandhistory,type=volume"
+  ],
   // For remote host
   "workspaceMount": "source=${localWorkspaceFolderBasename},target=/workspaces/${localWorkspaceFolderBasename},type=volume",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "onCreateCommand": "sudo chown -R vscode:vscode /workspaces"
+  "onCreateCommand": "chown -R vscode:vscode /workspaces || true"
 }
